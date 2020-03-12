@@ -1,13 +1,13 @@
 /* Font family */
 html {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
 }
 
 h1 {
-    font-family: 'Lora';
+    font-family: 'Lora',sans-serif;
 }
 
 h2 {
-    font-family: 'Spartan';
+    font-family: 'Spartan', sans-serif;
 }
 /* Fin Font Family */
