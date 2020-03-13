@@ -17,7 +17,11 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <h1>Grégoire</h1>
+=======
+oui kadder guillaume
+>>>>>>> 73bc3e52343e7c66e3ce26d5bd04d397642c525f
 </body>
 
 </html>
