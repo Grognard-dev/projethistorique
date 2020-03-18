@@ -4,12 +4,43 @@ html {
 }
 
 h1 {
-    font-family: 'Lora',sans-serif;
+    font-family: 'Lora',serif;
 }
 
-h2, h3 {
+h2, 
+h3 {
     font-family: 'Spartan', sans-serif;
 }
 
 /* Fin Font Family */
 
+/* Style nav */
+nav {
+    height: 95px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+}
+nav.start {
+    background-color: transparent;
+    transition: background-color 0.2s, height 0.2s, color 0.2s;
+}
+nav.start a {
+    color: white;
+}
+nav.finish {
+    background-color: white;
+    height: 50px;
+    transition: background-color 0.2s, height 0.2s, color 0.2s;
+}
+nav.finish a {
+    color: #171717;
+}
