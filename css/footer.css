@@ -1,0 +1,13 @@
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+.legal {
+    text-align: center;
+}
