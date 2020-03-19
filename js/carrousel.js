@@ -24,7 +24,7 @@ class Carousel {
       navigation: true
     }, options)
     let children = [].slice.call(element.children)
-    this.isMobile = false
+    this.isMobile = true
     this.currentItem = 0
     this.moveCallbacks = []
 

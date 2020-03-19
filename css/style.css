@@ -1,13 +1,9 @@
 /* Font family */
 html {
     font-family: 'Roboto',sans-serif;
-    margin: 0;
-    padding: 0;
+   
 }
-body{
-  padding: 0;
-  margin: 0;
-}
+
 h1 {
     font-family: 'Lora',sans-serif;
 }
@@ -16,13 +12,26 @@ h2 {
     font-family: 'Spartan', sans-serif;
 }
 /* Fin Font Family */
-.title {
-  font-size: 25px;
-  color: #000000;
-  font-weight: bold;
-  margin-bottom: 25px;
+
+.bloc {
+    padding-bottom: 2em;
+    position: relative;
 }
 
+.bloc:last-child {
+    padding-bottom: 2em;
+}
+
+.bloc .titlebg {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-bottom: 6px solid #ffffff;
+    font-size: 1.5em;
+    position: absolute;
+}
 .item {
   margin: 40px 10px;
   background-color: #fff;
@@ -74,6 +83,7 @@ h2 {
   transition: transform 0.3s;
   transform: translate3d(0, 0, 0);
   overflow-x: hidden;
+  
 }
 
 .carousel__container::after {
@@ -141,8 +151,21 @@ h2 {
   transform: scale(1.4);
 }
 
-@media screen and (min-width: 800px) {
-  .carousel__pagination {
-    display: block;
+
+@media screen and (min-width: 350px) {
+  #carousel1{
+    width: 70%;
   }
 }
+@media screen and (min-width: 800px) {
+  #carousel1{
+    width: 105%;
+    padding: 0;
+  }
+}
+  @media screen and (min-width: 870px) {
+  #carousel1{
+    width: 100%;
+    padding: 40px;
+  }
+  }
