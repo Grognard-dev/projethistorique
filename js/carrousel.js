@@ -181,7 +181,7 @@ class Carousel {
     return div
   }
 
-  /**
+  /**scroll sur mobile
    * @returns {number}
    */
   get slidesToScroll () {
@@ -200,23 +200,14 @@ class Carousel {
 let onReady = function () {
 
   new Carousel(document.querySelector('#carousel1'), {
-      slidesVisible: 3,
+      slidesVisible: 4,
       slidesToScroll: 2,
       loop: true
   })
-
-  new Carousel(document.querySelector('#carousel2'), {
-    slidesVisible: 2,
-    slidesToScroll: 2,
-    pagination: true,
-    loop: true
-  })
-
-  new Carousel(document.querySelector('#carousel3'))
 
 }
 
 if (document.readyState !== 'loading') {
   onReady()
 }
-document.addEventListener('DOMContentLoaded', onReady)
+document.addEventListener('DOMContentLoaded', onReady);

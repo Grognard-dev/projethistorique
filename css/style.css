@@ -1,8 +1,13 @@
 /* Font family */
 html {
     font-family: 'Roboto',sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
+body{
+  padding: 0;
+  margin: 0;
+}
 h1 {
     font-family: 'Lora',sans-serif;
 }
@@ -13,7 +18,7 @@ h2 {
 /* Fin Font Family */
 .title {
   font-size: 25px;
-  color: #FFF;
+  color: #000000;
   font-weight: bold;
   margin-bottom: 25px;
 }
@@ -24,16 +29,16 @@ h2 {
   box-shadow: 0 15px 35px #3232321a,0 5px 15px #0000001a;
   transition: transform 0.3s;
   transform: translate3d(0, -1px, 0);
+  height: calc(100% - 80px);
+
 }
 
 .item:hover  {
   transform: translate3d(0, -10px, 0);
 }
 
-.item img {
-  display: block;
-  width: 100%;
-  height: auto;
+.item__image{
+  height: 200px;
 }
 
 .item__body {
@@ -56,12 +61,19 @@ h2 {
 }
 .carousel {
   position: relative;
+  width: 100%;
 }
-
+#carousel1{
+  width: 1048px;
+  padding: 40px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: auto;
+}
 .carousel__container {
   transition: transform 0.3s;
   transform: translate3d(0, 0, 0);
-  margin: 100px;
+  overflow-x: hidden;
 }
 
 .carousel__container::after {
@@ -72,6 +84,7 @@ h2 {
 
 .carousel__item {
   float: left;
+  height: 400px;
 }
 
 .carousel__next, .carousel__prev {
