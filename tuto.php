@@ -90,7 +90,7 @@
 
         </div>
 
-        <img id="clock" src="../ressources/img/clockbg.png" alt="">
+        <img id="clock" src="./ressources/img/clockbg.png" alt="">
 
         <section id="b04" class="bloc bg-gold">
 
