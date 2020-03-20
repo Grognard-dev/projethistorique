@@ -22,19 +22,8 @@
 <body>
 
     <?php include ('php/nav.php'); ?>
-    <!-- <?php include ('php/header.php'); ?> -->
+    <?php include ('php/header.php'); ?>
 
-
-
-    <header>
-        <div class="slogan bg-black text-white">
-            <h1>Charleville-Mézières</h1>
-            <p>Plongez-vous dans plus de 200 ans d'histoire et découvrez la vie des habitants de la cité
-                carolomacérienne entre 1700 et 1900</p>
-        </div>
-    </header>
-
-    <div style="height: 1000px; width: 100%; background-color: blue"></div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
