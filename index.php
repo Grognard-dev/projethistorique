@@ -115,6 +115,9 @@
 
     </main>
 
+    <div style="height: 200px; background-color : #f2f2f2;">Actu</div>
+    <div style="height: 200px">Footer</div>
+
     <?php include ('php/footer.php'); ?>
 
 </body>
