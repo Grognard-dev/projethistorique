@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Spartan&display=swap" rel="stylesheet">
     
     <!-- Own CSS -->
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color.css">
     
@@ -17,7 +18,6 @@
 </head>
 
 <body>
-
 
     
 </body>

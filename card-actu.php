@@ -3,6 +3,7 @@
   <title>My Now Amazing Webpage</title>
   <link rel="stylesheet" href="css/color.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
   
 </head>
 <body>

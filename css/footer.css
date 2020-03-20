@@ -1,0 +1,16 @@
+.logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    max-width: 10em;
+
+}
+.legal {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 25px;
+}
