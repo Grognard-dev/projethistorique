@@ -205,6 +205,8 @@ main .header .menutitle {
     /* header */
     main .header {
         position: relative;
+        background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(255, 255, 255, 0.15)),  to(rgba(255, 255, 255, 0.25))), 
+                    url(../ressources/img/cm001.jpg) no-repeat center center;
         background: linear-gradient(rgba(255, 255, 255, 0.15),  rgba(255, 255, 255, 0.25)), 
                     url(../ressources/img/cm001.jpg) no-repeat center center;
         background-size: cover, cover;
@@ -215,7 +217,8 @@ main .header .menutitle {
         position: absolute;
         left: 37.7%;
         bottom: 20%;
-        transform: translate(-50%, 50%);
+        -webkit-transform: translate(-50%, 50%);
+                transform: translate(-50%, 50%);
         font-size: 2.2em;
         font-family: Lora, serif;
         color: whitesmoke;
@@ -289,7 +292,8 @@ main .header .menutitle {
     }
     /* clock */
     #bgclock {
-        transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+                transform: rotate(30deg);
         display: block;
         position: absolute;
         box-shadow: none;

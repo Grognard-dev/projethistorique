@@ -1,6 +1,6 @@
 <div style="display : flex; justify-content: center; align-items:center;
 background: linear-gradient(rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0.25),  rgba(255, 255, 255, 0.25)), 
-                    url(../ressources/img/cm001.jpg) no-repeat center center;
+                    url(./ressources/img/cm001.jpg) no-repeat center center;
         background-size: cover, cover;; width: 100vw; 
     height: 53vw; color: whitesmoke;
     text-shadow: 0 0 5px #00000082;

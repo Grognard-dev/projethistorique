@@ -5,9 +5,12 @@ footer {
     grid-template-rows: repeat(2, auto);
 }
 footer > div {
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
 }
 footer > div > div {
     width: 25vw;
@@ -19,9 +22,12 @@ footer > div > div {
 
 @media (min-width: 800px) {
     footer {
+        display: -webkit-box;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+                align-items: center;
         height: 18vw;
         margin: 4vw 0;
     }
