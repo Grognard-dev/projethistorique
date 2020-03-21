@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/tuto.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 
 </head>
@@ -24,87 +25,97 @@
     <main>
         <div class="header">
 
+            <span class="menutitle">Mode d'emploi</span>
+
             <div class="menutarget bg-gold">
                 <div>
-                    <span>01</span> <a href="#b01">Contexte</a>
+                    <span>01</span> <a href="#etape1">Contexte</a>
                 </div>
                 <div>
-                    <span>02</span> <a href="#b02">Les archives</a>
+                    <span>02</span> <a href="#etape2">Les archives</a>
                 </div>
                 <div>
-                    <span>03</span> <a href="#b03">Le travail</a>
+                    <span>03</span> <a href="#etape3">Le travail</a>
                 </div>
                 <div>
-                    <span>04</span> <a href="#b04">Application</a>
+                    <span>04</span> <a href="#etape4">Application</a>
                 </div>
             </div>
+            
         </div>
 
         <div class="parts">
+            
+            <div class="targetT" id="etape1">
+                <section id="b01" class="bloc">
+        
+                        <div class="img">
+                            <img src="https://picsum.photos/id/1/500/300/" alt="">
+                        </div>
 
-            <section id="b01" class="bloc">
+                        <div class="text-light bignb">01</div>
 
-                <div class="img">
-                    <img src="https://picsum.photos/id/1/500/300/" alt="">
-                </div>
+                        <div>
+                            <h2 class="titlegold">Contexte</h2>
 
-                <div class="text-light bignb">01</div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore! Sit vitae quam, rerum explicabo vel delectus assumenda!</p>
+                        </div>
 
-                <div>
-                    <h2 class="titlegold">Contexte</h2>
+                </section>
+            </div>
 
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore! Sit vitae quam, rerum explicabo vel delectus assumenda!</p>
-                </div>
+            <div class="targetT" id="etape2">
+                <section id="b02" class="bloc">
 
-            </section>
+                    <div class="img">
+                        <img src="https://picsum.photos/id/2/500/300" alt="">
+                    </div>
 
-            <section id="b02" class="bloc">
+                    <div class="text-light bignb">02</div>
 
-                <div class="img">
-                    <img src="https://picsum.photos/id/2/500/300" alt="">
-                </div>
+                    <div>
+                        <h2 class="titlegold">Contexte</h2>
 
-                <div class="text-light bignb">02</div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore! Sit vitae quam, rerum explicabo vel delectus assumenda!</p>
+                    </div>
 
-                <div>
-                    <h2 class="titlegold">Contexte</h2>
+                </section>
+            </div>
 
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore! Sit vitae quam, rerum explicabo vel delectus assumenda!</p>
-                </div>
+            <div class="targetT" id="etape3">
+                <section id="b03" class="bloc">
 
-            </section>
+                    <div class="img">
+                        <img src="https://picsum.photos/id/3/500/300#1" alt="">
+                    </div>
 
-            <section id="b03" class="bloc">
+                    <div class="text-light bignb">03</div>
+                    <div>
+                        <h2 class="titlegold">Contexte</h2>
 
-                <div class="img">
-                    <img src="https://picsum.photos/id/3/500/300#1" alt="">
-                </div>
-
-                <div class="text-light bignb">03</div>
-                <div>
-                    <h2 class="titlegold">Contexte</h2>
-
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore! Sit vitae quam, rerum explicabo vel delectus assumenda!</p>
-                </div>
-            </section>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore! Sit vitae quam, rerum explicabo vel delectus assumenda!</p>
+                    </div>
+                </section>
+            </div>
 
         </div>
 
-        <img id="clock" src="./ressources/img/clockbg.png" alt="">
+        <div id="bgclock"></div>
 
-        <section id="b04" class="bloc bg-gold">
 
-            <div class="text-white bignbxl">04</div>
+        <div class="targetT" id="etape4">
+            <section id="b04" class="bloc bg-gold">
 
-            <div class="btm text-black">
-                <a class="bg-white" href="">C'est parti</a>
-            </div>
+                <div class="text-white bignbxl">04</div>
 
-        </section>
+                <div class="btm text-black">
+                    <a class="bg-white" href="">C'est parti</a>
+                </div>
+
+            </section>
+        </div>
 
     </main>
-
-    <div style="height: 500px"></div>
 
     <?php include ('php/footer.php'); ?>
 

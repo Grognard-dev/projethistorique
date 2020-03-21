@@ -14,8 +14,35 @@ h3 {
 body {
     font-size: 3.5vw;
 }
-
 /* Fin Font Family */
+
+
+/* setting nav */
+:root {
+    --navheight: 60px;
+}
+body > *{
+    position: relative;
+    top: var(--navheight);
+}
+body > *:first-child { 
+    position: relative;
+    top: 0;
+}
+.bloc:target:before{
+    display: block;
+    content: "";
+    height: var(--navheight);
+    margin: calc(var(--navheight) - 2 * var(--navheight)) 0 0;
+}
+.bloc#b02:target:before,
+.bloc#b04:target:before{
+    background-color: white;
+}
+.menutarget .tDes {
+    display: none;
+}
+/* end setting nav */
 
 
 /* MAIN */
@@ -33,13 +60,15 @@ body {
     padding: 0.5em 0;
 }
 .menutarget > div > a {
-    border-bottom: 0px solid #f2f2f2;
-    -webkit-transition: border 0.5s ease;
-    transition: border 0.5s ease;
+    border-bottom: 3px solid #ffffff00;
+    box-sizing: border-box;
+    height: 1.5em;
     
 }
 .menutarget > div > a:hover {
     border-bottom: 4px solid #f2f2f2;
+    -webkit-transition: border 0.5s ease-in-out;
+    transition: border 0.5s ease-in-out;
     
 }
 
@@ -185,6 +214,26 @@ img {
 
 
 @media (min-width: 800px) {
+    /* setting nav */
+    .bloc:target:before{
+        display: none;
+    }
+    main>div:target{
+        padding-top: var(--navheight);
+        margin-top: calc(var(--navheight) - 2 * var(--navheight));
+    }
+    main>div#ligne2:target{
+        padding-top: 10px;
+        margin-top: -10px;
+    }
+    .menutarget .tMob {
+        display: none;
+    }
+    .menutarget .tDes {
+        display: inline-block;
+    }
+    /* end setting nav */
+    
     /* general */
     body {
         font-size: 1.4vw;
@@ -203,9 +252,9 @@ img {
     .bloc .img {
         height: auto;
     }
-    /* desktopbloc1 */
-    #desktopbloc1,
-    #desktopbloc3 {
+    /* ligne1 */
+    #ligne1,
+    #ligne3 {
         position: relative;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -220,7 +269,8 @@ img {
     /* b01 */
     section#b01 .img {
         position: absolute;
-        bottom: -9%;
+        top: 100%;
+        transform: translateY(-80%);
         left: 5%;
         width: 19%;
     }

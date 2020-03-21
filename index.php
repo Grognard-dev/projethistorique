@@ -12,7 +12,8 @@
     <!-- Own CSS -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/color.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 
 </head>
@@ -24,20 +25,24 @@
 
     <main>
 
-        <div id="desktopbloc1">
+        <div id="ligne1">
 
             <div class="menutarget">
                 <div>
-                    <span>01</span> <a href="#b01">Contexte</a>
+                    <span>01</span> <a class="tMob" href="#b01">Contexte</a>
+                                    <a class="tDes" href="#ligne1">Contexte</a>
                 </div>
                 <div>
-                    <span>02</span> <a href="#b02">Les archives départementales</a>
+                    <span>02</span> <a class="tMob" href="#b02">Les archives départementales</a>
+                                    <a class="tDes" href="#ligne2">Les archives départementales</a>
                 </div>
                 <div>
-                    <span>03</span> <a href="#b03">Le travail du CRNS</a>
+                    <span>03</span> <a class="tMob" href="#b03">Le travail du CRNS</a>
+                                    <a class="tDes" href="#ligne3">Le travail du CRNS</a>
                 </div>
                 <div>
-                    <span>04</span> <a href="#b04">Application</a>
+                    <span>04</span> <a class="tMob" href="#b04">Application</a>
+                                    <a class="tDes" href="#ligne3">Application</a>
                 </div>
             </div>
 
@@ -60,7 +65,7 @@
 
         </div>
 
-        <div id="desktopbloc2">
+        <div id="ligne2">
             <section id="b02" class="bloc bg-light">
 
                 <div class="img">
@@ -77,7 +82,7 @@
             </section>
         </div>
 
-        <div id="desktopbloc3">
+        <div id="ligne3">
 
             <section id="b03" class="bloc">
 
@@ -116,7 +121,6 @@
     </main>
 
     <div style="height: 200px; background-color : #f2f2f2;">Actu</div>
-    <div style="height: 200px">Footer</div>
 
     <?php include ('php/footer.php'); ?>
 

@@ -13,10 +13,30 @@ h3 {
 }
 body {
     font-size: 3.5vw;
-    background: no-repeat url()
 }
-
 /* Fin Font Family */
+
+
+
+/* setting nav */
+    :root {
+        --navheight: 60px;
+    }
+    body > *{
+        position: relative;
+        top: var(--navheight);
+    }
+    body > *:first-child { 
+        position: relative;
+        top: 0;
+    }
+    .targetT:target:before{
+        display: block;
+        content: "";
+        height: var(--navheight);
+        margin: calc(var(--navheight) - 2 * var(--navheight)) 0 0;
+    }
+/* end setting nav */
 
 
 /* MAIN */
@@ -34,13 +54,13 @@ body {
     padding: 0.5em 0;
 }
 .menutarget > div > a {
-    border-bottom: 0px solid #f2f2f2;
-    -webkit-transition: border 0.5s ease;
-    transition: border 0.5s ease;
+    border-bottom: 3px solid #ffffff00;
     
 }
 .menutarget > div > a:hover {
     border-bottom: 4px solid #f2f2f2;
+    -webkit-transition: border 0.5s ease-in-out;
+    transition: border 0.5s ease-in-out;
     
 }
 
@@ -68,6 +88,7 @@ img {
             justify-content: center;
     height: 45vw;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .bloc img {
@@ -148,7 +169,11 @@ img {
 }
 
 .bloc .btm>*:hover {
-    box-shadow: inset 0 0 15px 3px rgba(0, 0, 0, 0.20), 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.18), 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+main .header .menutitle {
+    display: none;
 }
 
 #clock {
@@ -158,6 +183,12 @@ img {
 
 
 @media (min-width: 800px) {
+    /* setting nav */
+    .targetT:nth-child(2n-1):target:before {
+        background-color: #FFFFFF;
+    }
+    /* end setting nav */
+
     /* general */
     body {
         font-size: 1.4vw;
@@ -174,55 +205,69 @@ img {
     /* header */
     main .header {
         position: relative;
-        background: center center url(../ressources/img/cm001.jpg);
-        background-size: cover;
+        background: linear-gradient(rgba(255, 255, 255, 0.15),  rgba(255, 255, 255, 0.25)), 
+                    url(../ressources/img/cm001.jpg) no-repeat center center;
+        background-size: cover, cover;
         height: 30vw;
     }
-    .menutarget {
+    main .header .menutitle {
+        display: block;
+        position: absolute;
+        left: 37.7%;
+        bottom: 20%;
+        transform: translate(-50%, 50%);
+        font-size: 2.2em;
+        font-family: Lora, serif;
+        color: whitesmoke;
+        text-shadow: 0 0 5px #00000082;
+        background: radial-gradient(#00000025,#00000020,#00000010, #00000000);
+        /* border-bottom: 4px solid #f2f2f280; */
+    }
+    main .header .menutarget {
         position: absolute;
         width: 35%;
         right: 4%;
         bottom: 9%;
-        background-color: rgba(255, 255, 255, 0.6);
-        -webkit-backdrop-filter: blur(10px);
-                backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5);
+        -webkit-backdrop-filter: blur(5px);
+                backdrop-filter: blur(5px);
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 2% 3%;
     }
-    .menutarget > div {
+    main .header .menutarget > div {
         width: 100%;
     }
     /* parts */
-    .parts > section:nth-child(2n-1) {
+    .parts .targetT:nth-child(2n-1) {
         background-color: #f2f2f2;
     }
-    .parts > section:nth-child(2n-1) .bignb {
+    .parts .targetT:nth-child(2n-1) .bignb {
         color: white;
     }
-    .parts > section {
+    .parts section {
         display: -webkit-box;
         display: flex;
         padding: 4% 6%;
     }
-    .parts > section > *:nth-child(1) {
+    .parts section > *:nth-child(1) {
         -webkit-box-ordinal-group: 3;
                 order: 2;
         width: 60vw;
         height: auto;
         margin: 0px 3em;
     }
-    .parts > section > *:nth-child(2) {
+    .parts section > *:nth-child(2) {
         -webkit-box-ordinal-group: 2;
                 order: 1;
     }
-    .parts > section > *:nth-child(3) {
+    .parts section > *:nth-child(3) {
         -webkit-box-ordinal-group: 4;
                 order: 3;
         margin-top: 0.6em;
         flex-shrink: 1.3;
     }
-    .parts > section > *:nth-child(3) > * {
+    .parts section > *:nth-child(3) > * {
         margin-left: 0;
         margin-right: 0;
     }
@@ -242,15 +287,16 @@ img {
         font-size: 10em;
         margin-bottom: 0.15em;
     }
-
-    #clock {
-        -webkit-transform: rotate(27deg);
-                transform: rotate(27deg);
+    /* clock */
+    #bgclock {
+        transform: rotate(30deg);
         display: block;
         position: absolute;
         box-shadow: none;
-        left: -20%;
-        width: 45%;
-        margin-top: 2%;
+        left: -19.5%;
+        width: 43vw;
+        height: 45vw;
+        margin-top: 2.5%;
+        background: url(../ressources/img/clockbg.png) center center / contain no-repeat;
     }
 }
