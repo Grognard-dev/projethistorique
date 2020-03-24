@@ -1,0 +1,286 @@
+/* setting nav */
+:root {
+    --navheight: 46px;
+}
+/* body > *{
+    position: relative;
+    top: var(--navheight);
+}
+body > *:first-child { 
+    position: relative;
+    top: 0;
+} */
+.targetT:target:before{
+    display: block;
+    content: "";
+    height: var(--navheight);
+    margin: calc(var(--navheight) - 2 * var(--navheight)) 0 0;
+}
+/* end setting nav */
+
+
+/* MAIN */
+
+.menutarget {
+    font-family:  'Lato', serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    padding: 2em 0;
+}
+
+.menutarget > div {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 0.5em 0;
+}
+.menutarget > div > a {
+    border-bottom: 3px solid #ffffff00;
+    
+}
+.menutarget > div > a:hover {
+    border-bottom: 4px solid #f2f2f2;
+    -webkit-transition: border 0.5s ease-in-out;
+    transition: border 0.5s ease-in-out;
+    
+}
+
+.menutarget span {
+    margin-right: 0.5em;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.bloc {
+    padding-bottom: 2em;
+}
+
+main .img,
+main img {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.bloc .img {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    height: 45vw;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.bloc img {
+    width: 100%;
+}
+
+.bloc .gonzague {
+    display: none;
+}
+
+.bloc .bignb {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    padding-top: 0.6em;
+    margin-bottom: 0.4em;
+
+}
+
+.bloc .bignbxl {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Lato', sans-serif;
+    font-size: 6em;
+    font-weight: 400;
+    padding-top: 0.1em;
+    margin-bottom: 0.3em;
+
+}
+
+.bloc .titlegold {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-bottom: 6px solid #EFE8E2;
+    font-size: 1.5em;
+}
+
+.bloc p {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    font-weight: 300;
+    margin-top: 1.5em;
+    padding-bottom: 1.1em;
+}
+
+.bloc .btm {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.bloc .btm>* {
+    width: 60%;
+    border: 1px solid black;
+    padding: 1.2em 0;
+    margin: 0.6em;
+    text-align: center;
+    box-shadow: inset 0 0 7px 3px rgba(0, 0, 0, 0), 0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-transition: box-shadow 0.4s ease;
+    transition: box-shadow 0.4s ease;
+}
+
+.bloc .btm>*:hover {
+    box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.18), 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+main .header .menutitle {
+    display: none;
+}
+
+#clock {
+    display: none;
+}
+
+@media (min-width: 678px) {
+    /* setting nav */
+    :root {
+        --navheight: 60px;
+    }
+    .targetT:nth-child(2n-1):target:before {
+        background-color: #FFFFFF;
+    }
+    /* end setting nav */
+
+    /* general */
+    body {
+        font-size: 1.4vw;
+    }
+    .bloc .bignb {
+        font-size: 8em;
+        padding-top: 0;
+        margin: 0;
+    }
+    .bloc p {
+        font-size: 0.9em;
+        width: 100%;
+    }
+    /* header */
+    main .header {
+        position: relative;
+        background: linear-gradient(rgba(0, 0, 0, 0.35),  rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), 
+        url(../ressources/img/cm001.jpg) no-repeat center center;
+        background-size: cover, cover;
+        height: 30vw;
+    }
+    main .header .menutitle {
+        display: block;
+        position: absolute;
+        left: 37.7%;
+        bottom: 20%;
+        -webkit-transform: translate(-50%, 50%);
+                transform: translate(-50%, 50%);
+        font-size: 2.2em;
+        font-family: Lora, serif;
+        color: whitesmoke;
+        text-shadow: 0 0 5px #00000082;
+        background: radial-gradient(#00000025,#00000020,#00000010, #00000000);
+        /* border-bottom: 4px solid #f2f2f280; */
+    }
+    main .header .menutarget {
+        position: absolute;
+        width: 35%;
+        right: 4%;
+        bottom: 9%;
+        background-color: rgba(255, 255, 255, 0.7);
+        -webkit-backdrop-filter: blur(5px);
+                backdrop-filter: blur(5px);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2% 3%;
+    }
+    main .header .menutarget > div {
+        width: 100%;
+    }
+    /* parts */
+    .parts .targetT:nth-child(2n-1) {
+        background-color: #f2f2f2;
+    }
+    .parts .targetT:nth-child(2n-1) .bignb {
+        color: white;
+    }
+    .parts section {
+        display: -webkit-box;
+        display: flex;
+        padding: 4% 6%;
+    }
+    .parts section > *:nth-child(1) {
+        -webkit-box-ordinal-group: 3;
+                order: 2;
+        width: 60vw;
+        height: auto;
+        margin: 0px 3em;
+    }
+    .parts section > *:nth-child(2) {
+        -webkit-box-ordinal-group: 2;
+                order: 1;
+    }
+    .parts section > *:nth-child(3) {
+        -webkit-box-ordinal-group: 4;
+                order: 3;
+        margin-top: 0.6em;
+        flex-shrink: 1.3;
+    }
+    .parts section > *:nth-child(3) > * {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #b04 {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        -webkit-box-align: center;
+                align-items: center;
+    }
+    #b04 > .btm {
+        width: 38%;
+    }
+    #b04 > .bignbxl {
+        font-size: 10em;
+        margin-bottom: 0.15em;
+    }
+    /* clock */
+    #bgclock {
+        -webkit-transform: rotate(13deg);
+        transform: rotate(13deg);
+        display: block;
+        position: absolute;
+        box-shadow: none;
+        left: -19.5%;
+        width: 42vw;
+        height: 45vw;
+        margin-top: 1.5%;
+        background: url(../ressources/img/clockbg.png) center center / contain no-repeat;
+        
+    }
+}
