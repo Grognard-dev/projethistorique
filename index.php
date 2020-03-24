@@ -12,7 +12,10 @@
     <!-- Own CSS -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/caroussel.css">
     <link rel="stylesheet" href="css/footer.css">
 
 
@@ -120,10 +123,14 @@
 
     </main>
 
-    <div style="height: 200px; background-color : #f2f2f2;">Actu</div>
+    <?php include ('php/card-actu.php'); ?>
 
     <?php include ('php/footer.php'); ?>
-
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
+    <script type="text/javascript" src="js/carrousel.js"></script>
 </body>
 
 </html>

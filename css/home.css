@@ -1,34 +1,15 @@
-/* Font family */
-html {
-    font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-    font-family: 'Lora', serif;
-}
-
-h2,
-h3 {
-    font-family: 'Spartan', sans-serif;
-}
-body {
-    font-size: 3.5vw;
-}
-/* Fin Font Family */
-
-
 /* setting nav */
 :root {
-    --navheight: 60px;
+    --navheight: 46px;
 }
-body > *{
+/* body > *{
     position: relative;
     top: var(--navheight);
 }
-body > *:first-child { 
+body > *:first-child  { 
     position: relative;
     top: 0;
-}
+} */
 .bloc:target:before{
     display: block;
     content: "";
@@ -82,8 +63,8 @@ body > *:first-child {
     padding-bottom: 2em;
 }
 
-.img,
-img {
+main .img,
+main img {
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -213,8 +194,11 @@ img {
 
 
 
-@media (min-width: 800px) {
+@media (min-width: 678px) {
     /* setting nav */
+    :root {
+        --navheight: 60px;
+    }
     .bloc:target:before{
         display: none;
     }

@@ -1,3 +1,39 @@
-<div style="background-color: rgba(119, 106, 95, 0.8);-webkit-backdrop-filter: blur(8px);backdrop-filter: blur(8px); width: 100vw; height: 60px; position: fixed; z-index: 999999999999; box-shadow: 0 -4px 8px 6.5px rgba(0,0,0,0.3), inset 0 0 16px -5px rgba(0,0,0,0.3);">
-    <a href="index.php"><h2 style="color: white; font-size: 20px; margin-left: 4%; line-height: 60px;">Projet Historique</h2></a>
-</div>
+<nav class="topnav start" id="myTopnav">
+    <a href="index.php" class="underline active">Accueil</a>
+    <a href="tuto.php" class="underline">Mode d'emploi</a>
+    <a href="application.php" class="underline">Application</a>
+    <a href="actualite.php" class="underline">Actualité</a>
+    <a href="#contact" class="underline">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        &#9776;
+    </a>
+</nav>
+
+
+
+<div id="contact" class="modal" style="opacity:0">
+        <div class="content-modal">
+
+            <h2>Contactez-nous :</h2>
+
+            <form action="">
+                <div>
+                    <label for="name">Nom: </label>
+                    <input type="text" name="name" id="name" class="form-item" required value="<?php echo $name;?>">
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" class="form-item" required value="<?php echo $email;?>">
+                </div>
+                <div>
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" class="form-item" required><?php echo $message;?></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer" class="form-item submit">
+                </div>
+            </form>
+
+            <a href="#close" title="Fermer" class="close-modal"></a>
+        </div>
+    </div>

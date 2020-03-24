@@ -1,41 +1,21 @@
-/* Font family */
-html {
-    font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-    font-family: 'Lora', serif;
-}
-
-h2,
-h3 {
-    font-family: 'Spartan', sans-serif;
-}
-body {
-    font-size: 3.5vw;
-}
-/* Fin Font Family */
-
-
-
 /* setting nav */
-    :root {
-        --navheight: 60px;
-    }
-    body > *{
-        position: relative;
-        top: var(--navheight);
-    }
-    body > *:first-child { 
-        position: relative;
-        top: 0;
-    }
-    .targetT:target:before{
-        display: block;
-        content: "";
-        height: var(--navheight);
-        margin: calc(var(--navheight) - 2 * var(--navheight)) 0 0;
-    }
+:root {
+    --navheight: 46px;
+}
+/* body > *{
+    position: relative;
+    top: var(--navheight);
+}
+body > *:first-child { 
+    position: relative;
+    top: 0;
+} */
+.targetT:target:before{
+    display: block;
+    content: "";
+    height: var(--navheight);
+    margin: calc(var(--navheight) - 2 * var(--navheight)) 0 0;
+}
 /* end setting nav */
 
 
@@ -74,8 +54,8 @@ body {
     padding-bottom: 2em;
 }
 
-.img,
-img {
+main .img,
+main img {
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -180,10 +160,11 @@ main .header .menutitle {
     display: none;
 }
 
-
-
-@media (min-width: 800px) {
+@media (min-width: 678px) {
     /* setting nav */
+    :root {
+        --navheight: 60px;
+    }
     .targetT:nth-child(2n-1):target:before {
         background-color: #FFFFFF;
     }
@@ -205,10 +186,8 @@ main .header .menutitle {
     /* header */
     main .header {
         position: relative;
-        background: -webkit-gradient(linear,  left top, left bottom,  from(rgba(255, 255, 255, 0.15)),  to(rgba(255, 255, 255, 0.25))), 
-                    url(../ressources/img/cm001.jpg) no-repeat center center;
-        background: linear-gradient(rgba(255, 255, 255, 0.15),  rgba(255, 255, 255, 0.25)), 
-                    url(../ressources/img/cm001.jpg) no-repeat center center;
+        background: linear-gradient(rgba(0, 0, 0, 0.35),  rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), 
+        url(../ressources/img/cm001.jpg) no-repeat center center;
         background-size: cover, cover;
         height: 30vw;
     }
@@ -231,7 +210,7 @@ main .header .menutitle {
         width: 35%;
         right: 4%;
         bottom: 9%;
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.7);
         -webkit-backdrop-filter: blur(5px);
                 backdrop-filter: blur(5px);
         display: grid;
@@ -292,15 +271,16 @@ main .header .menutitle {
     }
     /* clock */
     #bgclock {
-        -webkit-transform: rotate(30deg);
-                transform: rotate(30deg);
+        -webkit-transform: rotate(13deg);
+        transform: rotate(13deg);
         display: block;
         position: absolute;
         box-shadow: none;
         left: -19.5%;
-        width: 43vw;
+        width: 42vw;
         height: 45vw;
-        margin-top: 2.5%;
+        margin-top: 1.5%;
         background: url(../ressources/img/clockbg.png) center center / contain no-repeat;
+        
     }
 }

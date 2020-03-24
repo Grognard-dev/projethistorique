@@ -12,6 +12,8 @@
     <!-- Own CSS -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/tuto.css">
     <link rel="stylesheet" href="css/footer.css">
 
@@ -109,7 +111,7 @@
                 <div class="text-white bignbxl">04</div>
 
                 <div class="btm text-black">
-                    <a class="bg-white" href="">C'est parti</a>
+                    <a class="bg-white" href="application.php">C'est parti</a>
                 </div>
 
             </section>
@@ -118,7 +120,11 @@
     </main>
 
     <?php include ('php/footer.php'); ?>
-
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<div style="display : flex; justify-content: center; align-items:center;
+<!-- <div style="display : flex; justify-content: center; align-items:center;
 background: linear-gradient(rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0.25),  rgba(255, 255, 255, 0.25)), 
                     url(./ressources/img/cm001.jpg) no-repeat center center;
         background-size: cover, cover;; width: 100vw; 
@@ -11,4 +11,11 @@ background: linear-gradient(rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0.25),
     height: 9vw;
     text-align: center;
     padding: 1em 0;">Charleville-Mézières</h1>
-</div>
+</div> -->
+
+<header class="text-white">
+    <h1>Charleville-Mézières</h1>
+    <hr class="bg-light">
+    <p>Plongez-vous dans plus de 200 ans d'histoire et découvrez la vie des habitants de la cité
+        carolomacérienne entre 1700 et 1900</p>
+</header>
