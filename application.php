@@ -22,7 +22,7 @@
     
     <div style="display : flex; justify-content: center; align-items:center;
 background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0, 0, 0.25)), 
-                    url(../ressources/img/cm003.jpg) no-repeat center center;
+                    url(./ressources/img/cm003.jpg) no-repeat center center;
         background-size: cover, cover;backdrop-filter: blur(5px); width: 100vw; 
     height: 45vw; color: whitesmoke;
     text-shadow: 0 0 5px #00000082;
@@ -36,7 +36,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0,
     border-bottom: 4px solid #ffffff;">Application</h1>
 </div>
     
-    <iframe src="http://historique.simplon-charleville.fr/" frameborder="0" style="width: 100%; height:calc(100% - 60px);"></iframe>
+    <iframe src="https://historique.simplon-charleville.fr/" frameborder="0" style="width: 100vw; height:calc(100% - 60px);"></iframe>
         
     <?php include 'php/footer.php' ?>
     

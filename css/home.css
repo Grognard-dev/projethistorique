@@ -1,6 +1,6 @@
 /* setting nav */
 :root {
-    --navheight: 46px;
+    --navheight: 3.5em;
 }
 /* body > *{
     position: relative;
@@ -197,7 +197,7 @@ main img {
 @media (min-width: 678px) {
     /* setting nav */
     :root {
-        --navheight: 60px;
+        --navheight: 4em;
     }
     .bloc:target:before{
         display: none;

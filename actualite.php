@@ -26,7 +26,7 @@
 
     <div style="display : flex; justify-content: center; align-items:center;
 background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0, 0, 0.25)), 
-                    url(../ressources/img/cm003.jpg) no-repeat center center;
+                    url(./ressources/img/cm003.jpg) no-repeat center center;
         background-size: cover, cover;backdrop-filter: blur(5px); width: 100vw; 
     height: 45vw; color: whitesmoke;
     text-shadow: 0 0 5px #00000082;
@@ -53,7 +53,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0,
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus quae, consectetur reiciendis aliquid voluptatibus laborum id nulla, mollitia harum odit illum, corrupti aperiam. Voluptatibus magni ea et itaque rerum!</p>
         </div>
         <div class="actual-img">
-            <img src="ressourcesimg/photo1.jpg" alt="">
+            <img src="ressources/img/photo1.jpg" alt="">
         </div>
         <h3 class="actual-titre">Je suis une perruche</h3>
         <div class="actual-text">
@@ -62,7 +62,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0,
         </div>
         <div class="actual-container-droite">
         <div class="actual-img">
-            <img src="ressourcesimg/photo1.jpg" alt="">
+            <img src="ressources/img/photo1.jpg" alt="">
         </div>
         <div>
         <h3 class="actual-titre">Je suis une perruche</h3>
@@ -71,7 +71,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0,
         </div>
         </div>
           <div class="actual-img">
-            <img src="ressourcesimg/photo1.jpg" alt="">
+            <img src="ressources/img/photo1.jpg" alt="">
         </div>
         <div>
         <h3 class="actual-titre">Je suis une perruche</h3>
@@ -80,7 +80,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0,
         </div>
         </div>
            <div class="actual-img">
-            <img src="ressourcesimg/photo1.jpg" alt="">
+            <img src="ressources/img/photo1.jpg" alt="">
         </div>
         <div>
         <h3 class="actual-titre">Je suis une perruche</h3>
@@ -89,7 +89,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0,
         </div>
         </div>
            <div class="actual-img">
-            <img src="ressourcesimg/photo1.jpg" alt="">
+            <img src="ressources/img/photo1.jpg" alt="">
         </div>
         <div>
         <h3 class="actual-titre">Je suis une perruche</h3>
@@ -103,6 +103,9 @@ background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0,
 
   <?php include ('php/footer.php'); ?>
 
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>

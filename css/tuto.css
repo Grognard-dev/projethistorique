@@ -1,6 +1,6 @@
 /* setting nav */
 :root {
-    --navheight: 46px;
+    --navheight: 3.5em;
 }
 /* body > *{
     position: relative;
@@ -163,7 +163,7 @@ main .header .menutitle {
 @media (min-width: 678px) {
     /* setting nav */
     :root {
-        --navheight: 60px;
+        --navheight: 4em;
     }
     .targetT:nth-child(2n-1):target:before {
         background-color: #FFFFFF;
