@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/actualite.css">
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/footer.css">
 
@@ -20,21 +21,14 @@
 
     <?php include ('php/nav.php'); ?>
     
-    <div style="display : flex; justify-content: center; align-items:center;
-background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0, 0, 0.25)), 
-                    url(./ressources/img/cm003.jpg) no-repeat center center;
-        background-size: cover, cover;backdrop-filter: blur(5px); width: 100vw; 
-    height: 45vw; color: whitesmoke;
-    text-shadow: 0 0 5px #00000082;
-    max-height: 200px; box-shadow: 0 -4px 5px 4.5px rgba(0,0,0,0.3), inset 0 0 16px -5px rgba(0,0,0,0.3); ">
-    <h1 style="margin-top:2em;font-size: 4vw;
-    background: radial-gradient(#FFFFFF40,#FFFFFF20,#FFFFFF00, #FFFFFF00);
-    width: 100vw;
-    text-align: center;
-    padding: 0.08em 0;
-    width: fit-content;
-    border-bottom: 4px solid #ffffff;">Application</h1>
-</div>
+  
+    <div id="headeractu">
+
+        <span class="menutitle">Application</span>
+
+    </div>
+
+
     
     <iframe src="https://historique.simplon-charleville.fr/" frameborder="0" style="width: 100vw; height:calc(100% - 60px);"></iframe>
         

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Historique</title>
 
     <!-- Font Google -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Lora:400,700|Roboto:300,400,500,700|Spartan:300,400,500,700&display=swap" rel="stylesheet">
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/caroussel.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cheat.css">
 
 
 </head>
@@ -24,7 +25,13 @@
 <body>
     
     <?php include ('php/nav.php'); ?>
-    <?php include ('php/header.php'); ?>
+
+    <header class="text-white">
+        <h1>Charleville-Mézières</h1>
+        <hr class="bg-light">
+        <p>Plongez dans plus de 200 ans d'histoire et découvrez la vie des habitants de la cité
+            carolomacérienne entre 1700 et 1900</p>
+    </header>
 
     <main>
 
@@ -127,10 +134,19 @@
 
     <?php include ('php/footer.php'); ?>
     
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="js/nav.js"></script>
     <script type="text/javascript" src="js/carrousel.js"></script>
+
+    <script src="js/konami.js"></script>
+    <script>
+        var easter_egg = new Konami(function() {
+        var conteneur = document.querySelector("#mystere")
+        conteneur.style.display="block"
+        });
+    </script>
 </body>
 
 </html>

@@ -65,7 +65,7 @@ body > *:first-child  {
 
 main .img,
 main img {
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
 }
 
 .bloc .img {
@@ -335,6 +335,7 @@ main img {
     }
     section#b04 p {
         margin-top: 1.5em;
+        text-align: center;
     }
     section#b04 .bignb {
         -webkit-box-ordinal-group: 3;

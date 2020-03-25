@@ -29,6 +29,10 @@ body {
     height: 3.5em;
 }
 
+.topnav > *:nth-last-child(2) {
+    margin-right: 2vw;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -71,7 +75,7 @@ header {
     background-image: url(../ressources/img/cm001.jpg);
     background-color: #1717178f;
     height: 60vw;
-    max-height: 450px;
+    max-height: 710px;
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,7 +189,7 @@ header p {
     }
 
     .topnav a.icon {
-        line-height: 1.4em;
+        line-height: 1.2em;
         font-size: 1.5em;
         float: right;
         display: block;
@@ -205,7 +209,7 @@ header p {
         position: absolute;
         right: 0;
         top: 0;
-        line-height: 1.4em;
+        line-height: 1.2em;
         font-size: 1.5em;
     }
 

@@ -1,0 +1,26 @@
+@keyframes slidein {
+  from {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(2);
+  }
+}
+
+#bouge{ 
+  color:#3366cc;
+  font-size:1.2em; 
+  animation-duration: 10s;
+  animation-name: slidein;
+  transform-origin: 0 0;
+}
+#mystere{
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  display: none;
+}

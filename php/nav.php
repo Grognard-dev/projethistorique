@@ -17,6 +17,9 @@
             <h2>Contactez-nous :</h2>
 
             <form action="">
+
+    
+    <div id="mystere"><div id="bouge"><img src="../ressources/img/simplon.gif" alt=""></div></div>
                 <div>
                     <label for="name">Nom: </label>
                     <input type="text" name="name" id="name" class="form-item" required value="<?php echo $name;?>">
@@ -37,3 +40,7 @@
             <a href="#close" title="Fermer" class="close-modal"></a>
         </div>
     </div>
+
+
+
+
