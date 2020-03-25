@@ -1,7 +1,8 @@
 /* Font family */
-html {
+body{
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
+    font-size: 1.4vw !important;
 }
 
 h1 {
@@ -23,7 +24,6 @@ h3 {
 3. media queries
 */
 
-/* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
     position: fixed;
@@ -41,7 +41,7 @@ h3 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.2vw;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -134,7 +134,7 @@ header p {
     .topnav a {
         padding: 10px 0px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 1.9vw;
         margin: 0px 16px;
     }
 
@@ -152,6 +152,27 @@ header p {
         bottom: 2px;
         left: 0;
         background-color: white;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .underline-lg {
+        position: relative;
+        color: black;
+        text-decoration: none;
+    }
+
+    .underline-lg:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 2px;
+        left: 0;
+        background-color: black;
         visibility: hidden;
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
@@ -191,6 +212,8 @@ header p {
 @media screen and (max-width: 678px) {
     .topnav a {
         display: none;
+        opacity: 0%;
+        transition:  1s;
     }
 
     .topnav a.icon {
@@ -204,6 +227,7 @@ header p {
     .topnav.responsive {
         position: fixed;
         flex-direction: column;
+        
     }
 
     .topnav.responsive a.icon {

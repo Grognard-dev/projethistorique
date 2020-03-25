@@ -8,6 +8,10 @@ function myFunction() {
   }
 }
 
+// var color = window.getComputedStyle(
+// 	document.querySelector('.underline'), ':before'
+// ).getPropertyValue('background-color');
+
 /* Toggle between class start and finish following scroll position */
 $(window).scroll(function () {
   if ($(document).scrollTop() > 50) {
