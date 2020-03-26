@@ -185,9 +185,10 @@ main .header .menutitle {
     /* header */
     main .header {
         position: relative;
-        background: linear-gradient(rgba(23,23,23,0.56),rgba(23,23,23,0.56)), 
-        url(../ressources/img/cm001.jpg) no-repeat center center;
-        background-size: cover, cover;
+        background: center center no-repeat url(../ressources/img/cm001.jpg);
+        background-color: #1717178f;
+        background-size: cover;
+        background-blend-mode: color;
         height: 30vw;
     }
     main .header .menutitle {

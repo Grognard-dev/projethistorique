@@ -31,7 +31,7 @@
 
 
     
-    <iframe src="https://historique.simplon-charleville.fr/" frameborder="0" style="width: 100vw; height:calc(100% - 60px);"></iframe>
+    <iframe src="https://historique.simplon-charleville.fr/" frameborder="0" style="width: 100%; height:calc(100% - 60px);"></iframe>
         
     <?php include 'php/footer.php' ?>
     

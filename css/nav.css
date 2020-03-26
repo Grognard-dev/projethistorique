@@ -203,6 +203,7 @@ header p {
         flex-direction: column;
         height: auto;  
         box-shadow: 0 0 5px #0000004f;
+        background: white;
     }
 
     .topnav.responsive a.icon {

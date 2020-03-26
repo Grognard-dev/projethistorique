@@ -19,7 +19,8 @@
             <form action="">
 
     
-    <div id="mystere"><div id="bouge"><img src="./ressources/img/simplon.gif" alt=""></div></div>
+                <div id="mystere"><div id="bouge"><img src="./ressources/img/simplon.gif" alt=""></div></div>
+
                 <div>
                     <label for="name">Nom: </label>
                     <input type="text" name="name" id="name" class="form-item" required value="<?php echo $name;?>">
@@ -33,7 +34,7 @@
                     <textarea name="message" id="message" class="form-item" required><?php echo $message;?></textarea>
                 </div>
                 <div>
-                    <input type="submit" value="Envoyer" class="form-item submit">
+                    <input type="submit" value="Envoyer" class="form-item form-submit">
                 </div>
             </form>
 

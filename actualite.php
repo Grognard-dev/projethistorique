@@ -25,73 +25,106 @@
     <?php include ('php/nav.php'); ?>
 
 
-
     <div id="headeractu">
-
         <span class="menutitle">Actualité</span>
-
     </div>
 
 
-  <section class="bloc bg-white">
-    <h2 class="actual-titres"></h2>
-    <div class="actual-container">
-        <div class="actual-container-gauche">
-        <div class="actual-img">
-            <img src="ressources/img/photo1.jpg" alt="">
+    <section id="actualite">
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
         </div>
-        <h3 class="actual-titre">Je suis une perruche</h3>
-        <div class="actual-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus quae, consectetur reiciendis aliquid voluptatibus laborum id nulla, mollitia harum odit illum, corrupti aperiam. Voluptatibus magni ea et itaque rerum!</p>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
         </div>
-        <div class="actual-img">
-            <img src="ressources/img/photo1.jpg" alt="">
-        </div>
-        <h3 class="actual-titre">Je suis une perruche</h3>
-        <div class="actual-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus quae, consectetur reiciendis aliquid voluptatibus laborum id nulla, mollitia harum odit illum, corrupti aperiam. Voluptatibus magni ea et itaque rerum!</p>
-        </div>
-        </div>
-        <div class="actual-container-droite">
-        <div class="actual-img">
-            <img src="ressources/img/photo1.jpg" alt="">
-        </div>
-        <div>
-        <h3 class="actual-titre">Je suis une perruche</h3>
-        <div class="actual-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus quae, consectetur reiciendis aliquid voluptatibus laborum id nulla, mollitia harum odit illum, corrupti aperiam. Voluptatibus magni ea et itaque rerum!</p>
-        </div>
-        </div>
-          <div class="actual-img">
-            <img src="ressources/img/photo1.jpg" alt="">
-        </div>
-        <div>
-        <h3 class="actual-titre">Je suis une perruche</h3>
-        <div class="actual-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus quae, consectetur reiciendis aliquid voluptatibus laborum id nulla, mollitia harum odit illum, corrupti aperiam. Voluptatibus magni ea et itaque rerum!</p>
-        </div>
-        </div>
-           <div class="actual-img">
-            <img src="ressources/img/photo1.jpg" alt="">
-        </div>
-        <div>
-        <h3 class="actual-titre">Je suis une perruche</h3>
-        <div class="actual-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus quae, consectetur reiciendis aliquid voluptatibus laborum id nulla, mollitia harum odit illum, corrupti aperiam. Voluptatibus magni ea et itaque rerum!</p>
-        </div>
-        </div>
-           <div class="actual-img">
-            <img src="ressources/img/photo1.jpg" alt="">
-        </div>
-        <div>
-        <h3 class="actual-titre">Je suis une perruche</h3>
-        <div class="actual-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus quae, consectetur reiciendis aliquid voluptatibus laborum id nulla, mollitia harum odit illum, corrupti aperiam. Voluptatibus magni ea et itaque rerum!</p>
-        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
         </div>
     </div>
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
     </div>
-  </section>
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
+    </div>
+
+    </section>
+
+
 
   <?php include ('php/footer.php'); ?>
 
