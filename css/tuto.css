@@ -2,14 +2,9 @@
 :root {
     --navheight: 3.5em;
 }
-/* body > *{
-    position: relative;
-    top: var(--navheight);
+nav.start a {
+    color: black;
 }
-body > *:first-child { 
-    position: relative;
-    top: 0;
-} */
 .targetT:target:before{
     display: block;
     content: "";
@@ -178,6 +173,9 @@ main .header .menutitle {
     /* setting nav */
     :root {
         --navheight: 4em;
+    }
+    nav.start a {
+      color: white;
     }
     .targetT:nth-child(2n-1):target:before {
         background-color: #FFFFFF;

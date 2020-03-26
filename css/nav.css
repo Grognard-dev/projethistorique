@@ -27,7 +27,7 @@ body {
     justify-content: flex-end;
     z-index: 1;
     height: 3.5em;
-    z-index: 9999999;
+    z-index: 999;
 }
 
 .topnav > *:nth-last-child(2) {
