@@ -1,3 +1,12 @@
+.exit {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: default;
+}
+
 .modal {
     position: fixed;
     top: 0;
@@ -49,25 +58,6 @@
     max-height: 550px;
 }
 
-/* .close-modal {
-    display: block;
-    width: 1.2em;
-    height: 1.2em;
-    background: url(../ressources/img/close.svg) no-repeat center center;
-    background-size: cover;
-    position: absolute;
-    right: 1em;
-    top: 1em;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.close-modal:hover {
-
-} */
-
-
-/* Icon Spin */
 .close-modal {
     position: absolute;
     right: 2em;
@@ -150,7 +140,7 @@ form>div {
 }
 
 .form-item:focus {
-    box-shadow: 0 0 2px 2px var(--colorBtn1);
+    box-shadow: 0 0 2px 2px #F2F2F2;
 }
 
 textarea.form-item {
@@ -163,8 +153,8 @@ textarea.form-item {
 
 .form-submit {
     border-radius: 4px;
-    -webkit-transition: background-color 0.5s, box-shadow 0.4s;
-    transition: background-color 0.5s, box-shadow 0.4s;
+    -webkit-transition: background-color 0.6s, box-shadow 0.4s;
+    transition: background-color 0.6s, box-shadow 0.4s;
 }
 
 .form-submit:hover {

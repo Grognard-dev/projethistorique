@@ -2,6 +2,8 @@
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav" || x.className === "topnav start" || x.className === "topnav finish") {
+    x.className += " responsive0";
+    $('nav').removeClass('responsive0');
     x.className += " responsive";
   } else {
     // x.className = " responsive";

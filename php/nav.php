@@ -10,8 +10,8 @@
 </nav>
 
 
-
 <div id="contact" class="modal" style="opacity:0">
+        <a href="#"><div class="exit"></div></a>
         <div class="content-modal">
 
             <h2>Contactez-nous :</h2>
@@ -41,7 +41,6 @@
             <a href="#close" title="Fermer" class="close-modal"></a>
         </div>
     </div>
-
 
 
 

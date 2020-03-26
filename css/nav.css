@@ -27,6 +27,7 @@ body {
     justify-content: flex-end;
     z-index: 1;
     height: 3.5em;
+    z-index: 9999999;
 }
 
 .topnav > *:nth-last-child(2) {
@@ -198,12 +199,33 @@ header p {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 678px) {
+
+    .topnav.responsive0 {
+        position: fixed;
+        flex-direction: column;
+        height: auto;  
+        box-shadow: 0 0 5px #0000004f;
+        background: white;
+        opacity: 0;
+        transition: 0.5s;
+    }
     .topnav.responsive {
         position: fixed;
         flex-direction: column;
         height: auto;  
         box-shadow: 0 0 5px #0000004f;
         background: white;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        color: #171717;  
+        font-size: 1.3em;
+        padding-bottom: 1.2em;
     }
 
     .topnav.responsive a.icon {
@@ -212,16 +234,6 @@ header p {
         top: 0;
         line-height: 1.2em;
         font-size: 1.5em;
-    }
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-        background-color: white;
-        color: #171717;  
-        font-size: 1.3em;
-        padding-bottom: 1.2em;
     }
 
     .topnav.responsive a:first-child {

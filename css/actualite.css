@@ -17,27 +17,28 @@ nav.start a {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #EFE8E2;
 }
 #headeractu .menutitle {
   width: fit-content;
   font-family: Lora, serif;
   color: black;
-  border-bottom: 0.2em solid #f2f2f2;
-  padding-bottom: 5px;
-  font-size: 8vw;
+  border-bottom: 0.15em solid white;
+  padding-bottom: 0.05em;
+  font-size: 7vw;
 }
 /* end header */
 
 /* grid */
 #actualite {
-  margin-bottom: 10vw;
   -webkit-box-pack: center;
           justify-content: center;
   display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap: 7vw;
+  grid-row-gap: 10vw;
   width: auto;
   font-size: 3vw;
+  background: #EFE8E2;
 }
 #actualite > div {
   height: 80vw;
@@ -47,6 +48,8 @@ nav.start a {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
+  box-shadow: 1px 1px 5px #0000001f;
+  background: white;
 }
 /* end grid */
 
@@ -79,8 +82,9 @@ nav.start a {
 #actualite .actu-footer {
   margin-top: auto;
   background-color: #f2f2f2;
-  padding: 0.5em 0.75em 0.2em 0.75em;
+  padding: 0.6em 0.75em 0.4em 0.75em;
   color: grey;
+  background-color: #F2F2F2;
 }
 /* end cards */
 
@@ -113,15 +117,13 @@ nav.start a {
     position: absolute;
     left: 50%;
     bottom: 6vw;
-    font-size: 5vw;
+    font-size: 4vw;
     -webkit-transform: translate(-50%, 50%);
             transform: translate(-50%, 50%);
     color: whitesmoke;
     border-bottom: 0.1em solid #f2f2f2;
     text-shadow: 0 0 5px #00000082;
     background: radial-gradient(#00000025,#00000020,#00000010, #00000000);
-
-
   }
 /* end header */
 
@@ -132,12 +134,11 @@ nav.start a {
     grid-row-gap: 3vw;
     grid-auto-flow: row dense;
     width: 100%;
-    margin: 5vw 0;
+    padding: 5vw 0;
     font-size: 1.1vw;
   }
   #actualite > div {
     height: 30vw;
-    border: 0.15em solid #F2F2F2;
   }
   #actualite > div:nth-child(1),
   #actualite > div:nth-child(2) {
@@ -165,6 +166,7 @@ nav.start a {
 #actualite > div:nth-child(5),
 #actualite > div:nth-child(6) {
   flex-direction: row-reverse;
+  position: relative;
 }
 #actualite > div:nth-child(3) .actu-img,
 #actualite > div:nth-child(4) .actu-img,
@@ -173,7 +175,8 @@ nav.start a {
   width: 15vw;
   height: 100%;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
+  z-index: 1;
 }
 #actualite > div:nth-child(3) img,
 #actualite > div:nth-child(4) img,
@@ -196,7 +199,10 @@ nav.start a {
 #actualite > div:nth-child(4) .actu-footer,
 #actualite > div:nth-child(5) .actu-footer,
 #actualite > div:nth-child(6) .actu-footer {
-  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
 }
  /* end small cards */
 
