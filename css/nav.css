@@ -76,7 +76,7 @@ header {
     background-image: url(../ressources/img/cm001.jpg);
     background-color: #1717178f;
     height: 60vw;
-    max-height: 710px;
+    max-height: 65vh;
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +112,7 @@ header p {
     /* Media queries to shrink the height of the nav when not on mobile */
 
     header {
-        height: 50vw;
+        height: 45vw;
         background-size: cover;
         background-position: center;
         justify-content: flex-end;
