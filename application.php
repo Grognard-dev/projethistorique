@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/actualite.css">
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cheat.css">
 
 </head>
 

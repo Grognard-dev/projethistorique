@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/tuto.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cheat.css">
 
 
 </head>
