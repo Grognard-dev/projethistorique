@@ -162,7 +162,11 @@ class Carousel {
    * responsive
    */
   onWindowResize () {
+<<<<<<< HEAD
     let mobile = window.innerWidth < 800
+=======
+    let mobile = window.innerWidth < 678
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
     if (mobile !== this.isMobile) {
       this.isMobile = mobile
       this.setStyle()

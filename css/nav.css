@@ -11,10 +11,18 @@ h2,
 h3 {
     font-family: 'Spartan', sans-serif;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 body {
     font-size: 3.5vw;
     letter-spacing: 0.02em;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 /* Fin Font Family */
 
 
@@ -26,7 +34,16 @@ body {
     width: 100%;
     justify-content: flex-end;
     z-index: 1;
+<<<<<<< HEAD
     height: 46px;
+=======
+    height: 3.5em;
+    z-index: 999;
+}
+
+.topnav>*:nth-last-child(2) {
+    margin-right: 2vw;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 }
 
 /* Style the links inside the navigation bar */
@@ -71,7 +88,11 @@ header {
     background-image: url(../ressources/img/cm001.jpg);
     background-color: #1717178f;
     height: 60vw;
+<<<<<<< HEAD
     max-height: 450px;
+=======
+    max-height: 65vh;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,7 +128,11 @@ header p {
     /* Media queries to shrink the height of the nav when not on mobile */
 
     header {
+<<<<<<< HEAD
         height: 50vw;
+=======
+        height: 45vw;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
         background-size: cover;
         background-position: center;
         justify-content: flex-end;
@@ -129,12 +154,20 @@ header p {
     }
 
     nav.start {
+<<<<<<< HEAD
         height: 60px;
+=======
+        height: 4em;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
         align-items: center;
     }
 
     nav.finish {
+<<<<<<< HEAD
         height: 60px;
+=======
+        height: 4em;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
         align-items: center;
     }
 
@@ -181,12 +214,21 @@ header p {
 @media screen and (max-width: 678px) {
     .topnav a {
         display: none;
+<<<<<<< HEAD
         
     }
 
     .topnav a.icon {
         line-height: 20px;
         font-size: 20px;
+=======
+
+    }
+
+    .topnav a.icon {
+        line-height: 1.2em;
+        font-size: 1.5em;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
         float: right;
         display: block;
     }
@@ -194,6 +236,7 @@ header p {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 678px) {
+<<<<<<< HEAD
     .topnav.responsive {
         position: fixed;
         flex-direction: column;
@@ -204,12 +247,34 @@ header p {
         position: absolute;
         right: 0;
         top: 0;
+=======
+
+    .topnav.responsive0 {
+        position: fixed;
+        flex-direction: column;
+        height: auto;
+        box-shadow: 0 0 5px #0000004f;
+        background: white;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .topnav.responsive {
+        position: fixed;
+        flex-direction: column;
+        height: auto;
+        box-shadow: 0 0 5px #0000004f;
+        background: white;
+        opacity: 1;
+        transition: 0.5s;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
     }
 
     .topnav.responsive a {
         float: none;
         display: block;
         text-align: left;
+<<<<<<< HEAD
         background-color: white;
         color: #171717;  
         font-size: 17px;
@@ -221,5 +286,22 @@ header p {
 
     .topnav.responsive a:nth-last-child(2) {
         padding-bottom: 20px;
+=======
+        color: #171717;
+        font-size: 1.3em;
+        padding-bottom: 1.2em;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        line-height: 1.2em;
+        font-size: 1.5em;
+    }
+
+    .topnav.responsive a:first-child {
+        padding-top: 1.1em;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
     }
 }

@@ -1,5 +1,6 @@
 /* setting nav */
 :root {
+<<<<<<< HEAD
     --navheight: 46px;
 }
 /* body > *{
@@ -10,6 +11,13 @@ body > *:first-child {
     position: relative;
     top: 0;
 } */
+=======
+    --navheight: 3.5em;
+}
+nav.start a {
+    color: black;
+}
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 .targetT:target:before{
     display: block;
     content: "";
@@ -33,6 +41,7 @@ body > *:first-child {
     margin-right: 4%;
     padding: 0.5em 0;
 }
+<<<<<<< HEAD
 .menutarget > div > a {
     border-bottom: 3px solid #ffffff00;
     
@@ -42,6 +51,32 @@ body > *:first-child {
     -webkit-transition: border 0.5s ease-in-out;
     transition: border 0.5s ease-in-out;
     
+=======
+
+.menutarget > div > a {
+    position: relative;
+}
+
+.menutarget > div > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.2em;
+    bottom: -0.3em;
+    left: 0;
+    background-color: #EFE8E2;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.menutarget > div > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 }
 
 .menutarget span {
@@ -56,7 +91,11 @@ body > *:first-child {
 
 main .img,
 main img {
+<<<<<<< HEAD
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+=======
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 }
 
 .bloc .img {
@@ -68,7 +107,10 @@ main img {
             justify-content: center;
     height: 45vw;
     overflow: hidden;
+<<<<<<< HEAD
     border-radius: 5px;
+=======
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 }
 
 .bloc img {
@@ -163,7 +205,14 @@ main .header .menutitle {
 @media (min-width: 678px) {
     /* setting nav */
     :root {
+<<<<<<< HEAD
         --navheight: 60px;
+=======
+        --navheight: 4em;
+    }
+    nav.start a {
+      color: white;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
     }
     .targetT:nth-child(2n-1):target:before {
         background-color: #FFFFFF;
@@ -186,9 +235,16 @@ main .header .menutitle {
     /* header */
     main .header {
         position: relative;
+<<<<<<< HEAD
         background: linear-gradient(rgba(0, 0, 0, 0.35),  rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), 
         url(../ressources/img/cm001.jpg) no-repeat center center;
         background-size: cover, cover;
+=======
+        background: center center no-repeat url(../ressources/img/cm001.jpg);
+        background-color: #1717178f;
+        background-size: cover;
+        background-blend-mode: color;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
         height: 30vw;
     }
     main .header .menutitle {

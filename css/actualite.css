@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-size: 1em;
 }
@@ -93,5 +94,220 @@ body {
   .actual-container-gauche .actual-text {
     font-size: 0.9em;
   }
+=======
+/* general */
+body {
+  font-size: 3.5vw;
+}
+/* end general */
+
+/* nav */
+nav.start a {
+  color: black;
+}
+/* nav end */
+
+/* header */
+#headeractu {
+  position: relative;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFE8E2;
+}
+#headeractu .menutitle {
+  width: fit-content;
+  font-family: Lora, serif;
+  color: black;
+  border-bottom: 0.15em solid white;
+  padding-bottom: 0.05em;
+  font-size: 7vw;
+}
+/* end header */
+
+/* grid */
+#actualite {
+  padding-bottom: 10vw;
+  -webkit-box-pack: center;
+          justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10vw;
+  width: auto;
+  font-size: 1.1em;
+  background: #EFE8E2;
+}
+#actualite > div {
+  height: 105vw;
+  overflow: hidden;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  box-shadow: 1px 1px 5px #0000001f;
+  background: white;
+}
+/* end grid */
+
+/* cards  */
+#actualite .actu-img {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 45vw;
+    overflow: hidden;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+#actualite img {
+    width: 100%;
+}
+#actualite .actu-main {
+  margin: 2em 0.75em;
+  height: 33%;
+}
+#actualite .titlebg {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 0.25em solid #f2f2f2;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+#actualite .pactu {
+  font-size: 1.1em;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+#actualite .actu-footer {
+  margin-top: auto;
+  background-color: #f2f2f2;
+  padding: 0.6em 0.75em 0.4em 0.75em;
+  color: grey;
+  background-color: #F2F2F2;
+}
+/* end cards */
+
+
+
+
+@media screen and (min-width: 678px) {
+/* general */
+body {
+  font-size: 1.4vw;
+}
+/* end general */
+
+/* nav */
+nav.start a {
+  color: white;
+}
+/* nav end */
+
+/* header */
+  #headeractu {
+    background: center center no-repeat url(../ressources/img/cm001.jpg);
+    background-color: #1717178f;
+    background-size: cover;
+    background-blend-mode: color;
+    height: 25vw;
+  }
+  #headeractu .menutitle {
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 6vw;
+    font-size: 4vw;
+    -webkit-transform: translate(-50%, 50%);
+            transform: translate(-50%, 50%);
+    color: whitesmoke;
+    border-bottom: 0.1em solid #f2f2f2;
+    text-shadow: 0 0 5px #00000082;
+    background: radial-gradient(#00000025,#00000020,#00000010, #00000000);
+  }
+/* end header */
+
+/* grid */
+  #actualite {
+    grid-template-columns: 30% 40%;
+    grid-column-gap: 6vw;
+    grid-row-gap: 3vw;
+    grid-auto-flow: row dense;
+    width: 100%;
+    padding: 5vw 0;
+    font-size: 1.1vw;
+  }
+  #actualite > div {
+    height: 30vw;
+  }
+  #actualite > div:nth-child(1),
+  #actualite > div:nth-child(2) {
+    grid-column: 1;
+    grid-row: span 2;
+  }
+  #actualite > div:nth-child(3),
+  #actualite > div:nth-child(4),
+  #actualite > div:nth-child(5),
+  #actualite > div:nth-child(6) {
+    grid-column: 2;
+    height: 13.5vw;
+  }
+/* end grid */
+
+/* cards */
+#actualite .actu-img {
+  height: 15vw;
+}
+/* end cards */
+
+/* small cards */
+#actualite > div:nth-child(3),
+#actualite > div:nth-child(4),
+#actualite > div:nth-child(5),
+#actualite > div:nth-child(6) {
+  flex-direction: row-reverse;
+  position: relative;
+}
+#actualite > div:nth-child(3) .actu-img,
+#actualite > div:nth-child(4) .actu-img,
+#actualite > div:nth-child(5) .actu-img,
+#actualite > div:nth-child(6) .actu-img {
+  width: 15vw;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 1;
+}
+#actualite > div:nth-child(3) img,
+#actualite > div:nth-child(4) img,
+#actualite > div:nth-child(5) img,
+#actualite > div:nth-child(6) img {
+  height: 100%;
+  width: auto;
+}
+#actualite > div:nth-child(3) .actu-main,
+#actualite > div:nth-child(4) .actu-main,
+#actualite > div:nth-child(5) .actu-main,
+#actualite > div:nth-child(6) .actu-main {
+  margin: 2em 0.75em;
+  font-size: 0.8em;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+}
+#actualite > div:nth-child(3) .actu-footer,
+#actualite > div:nth-child(4) .actu-footer,
+#actualite > div:nth-child(5) .actu-footer,
+#actualite > div:nth-child(6) .actu-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+}
+ /* end small cards */
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 
 }

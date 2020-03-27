@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer {
     margin: 4vw 0;
 }
@@ -6,12 +7,27 @@ footer .legal {
     text-align: center;
     font-family: 'Lato';
     font-size: 16px;
+=======
+.footer {
+    margin: 9vw 0;
+}
+
+.footer .legal {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 1em;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 }
 
 .footer1 {
     display: grid;
+<<<<<<< HEAD
     height: 34vw;
     margin: 5vw 0;
+=======
+    height: 36vw;
+    margin: 6vw 0;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
     grid-template-rows: repeat(2, auto);
 }
 .footer1 > div {
@@ -23,9 +39,15 @@ footer .legal {
             align-items: center;
 }
 .footer1 > div > div {
+<<<<<<< HEAD
     width: 25vw;
     height: 15vw;
     margin: 1vw 1.5vw;
+=======
+    width: 30vw;
+    height: 14vw;
+    margin: 2vw 3.5vw;
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +63,12 @@ footer .legal {
 
 
 @media (min-width: 678px) {
+<<<<<<< HEAD
+=======
+    .footer {
+        margin: 4vw 0;
+    }
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
     .footer1 {
         display: -webkit-box;
         display: flex;

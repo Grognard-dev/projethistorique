@@ -11,8 +11,15 @@
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/home.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/footer.css">
+=======
+    <link rel="stylesheet" href="css/actualite.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cheat.css">
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 
 </head>
 
@@ -20,6 +27,7 @@
 
     <?php include ('php/nav.php'); ?>
     
+<<<<<<< HEAD
     <div style="display : flex; justify-content: center; align-items:center;
 background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0, 0, 0.25)), 
                     url(../ressources/img/cm003.jpg) no-repeat center center;
@@ -38,6 +46,16 @@ background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0,
     
     <iframe src="http://historique.simplon-charleville.fr/" frameborder="0" style="width: 100%; height:calc(100% - 60px);"></iframe>
         
+=======
+  
+    <div id="headeractu">
+        <span class="menutitle">Application</span>
+    </div>
+
+
+    <iframe src="https://historique.simplon-charleville.fr/" frameborder="0" style="width: 100%; height:70vh;"></iframe>
+    <hr style="background: #F2F2F2;">
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
     <?php include 'php/footer.php' ?>
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

@@ -16,7 +16,11 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/tuto.css">
     <link rel="stylesheet" href="css/footer.css">
+<<<<<<< HEAD
 
+=======
+    <link rel="stylesheet" href="css/cheat.css">
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 
 </head>
 

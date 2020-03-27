@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/actualite.css">
     <link rel="stylesheet" href="css/footer.css">
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" href="css/cheat.css">
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
     
 </head>
 
@@ -24,6 +28,7 @@
     <?php include ('php/nav.php'); ?>
 
 
+<<<<<<< HEAD
     <div style="display : flex; justify-content: center; align-items:center;
 background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0, 0, 0.25)), 
                     url(../ressources/img/cm003.jpg) no-repeat center center;
@@ -103,6 +108,114 @@ background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.25),  rgba(0, 0,
 
   <?php include ('php/footer.php'); ?>
 
+=======
+    <div id="headeractu">
+        <span class="menutitle">Actualité</span>
+    </div>
+
+
+    <section id="actualite">
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="actu-img">
+            <img src="ressources/img/archives08.jpeg" alt="">
+        </div>
+
+        <div class="actu-main">
+            <h3 class="titlebg">Le titre de l'actu</h3>
+            <p class="pactu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit a quaerat maxime odit quia aut vitae, fugit tempore ipsa, quod reprehenderit dolore!</p>
+        </div>
+
+        <div class="actu-footer">
+            <span>26/03/2020 par Auteur</span>
+        </div>
+    </div>
+
+    </section>
+
+
+
+  <?php include ('php/footer.php'); ?>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
 </body>
 
 </html>

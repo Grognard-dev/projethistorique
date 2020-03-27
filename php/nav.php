@@ -10,13 +10,25 @@
 </nav>
 
 
+<<<<<<< HEAD
 
 <div id="contact" class="modal" style="opacity:0">
+=======
+<div id="contact" class="modal" style="opacity:0">
+        <a href="#"><div class="exit"></div></a>
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
         <div class="content-modal">
 
             <h2>Contactez-nous :</h2>
 
             <form action="">
+<<<<<<< HEAD
+=======
+
+    
+                <div id="mystere"><div id="bouge"><img src="./ressources/img/simplon.gif" alt=""></div></div>
+
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
                 <div>
                     <label for="name">Nom: </label>
                     <input type="text" name="name" id="name" class="form-item" required value="<?php echo $name;?>">
@@ -30,10 +42,21 @@
                     <textarea name="message" id="message" class="form-item" required><?php echo $message;?></textarea>
                 </div>
                 <div>
+<<<<<<< HEAD
                     <input type="submit" value="Envoyer" class="form-item submit">
+=======
+                    <input type="submit" value="Envoyer" class="form-item form-submit">
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
                 </div>
             </form>
 
             <a href="#close" title="Fermer" class="close-modal"></a>
         </div>
+<<<<<<< HEAD
     </div>
+=======
+    </div>
+
+
+
+>>>>>>> dcc621eadf91f82211f78981f97eb5ee48404f4a
