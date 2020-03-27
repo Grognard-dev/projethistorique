@@ -28,8 +28,8 @@
     </div>
 
 
-    <iframe src="https://historique.simplon-charleville.fr/" frameborder="0" style="width: 100%; height:calc(100% - 60px);"></iframe>
-        
+    <iframe src="https://historique.simplon-charleville.fr/" frameborder="0" style="width: 100%; height:70vh;"></iframe>
+    <hr style="background: #F2F2F2;">
     <?php include 'php/footer.php' ?>
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

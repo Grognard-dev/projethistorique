@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer">
     <div class="footer1">
         <div>
             <div><img src="ressources/img/cnil.svg"></div>

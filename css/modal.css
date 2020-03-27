@@ -70,7 +70,7 @@
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
   }
-  .close-modal:before {
+.close-modal:before {
     content: "";
     background: url(../ressources/img/close.svg) no-repeat center center;
     width: 1.2em;
@@ -82,11 +82,11 @@
     transition-property: transform;
     -webkit-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
-  }
-  .close-modal:hover:before, .close-modal:focus:before, .close-modal:active:before {
+}
+.close-modal:hover:before, .close-modal:focus:before, .close-modal:active:before {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-  }
+}
 
 
 

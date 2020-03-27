@@ -1,17 +1,17 @@
-footer {
-    margin: 4vw 0;
+.footer {
+    margin: 9vw 0;
 }
 
-footer .legal {
+.footer .legal {
     text-align: center;
     font-family: 'Lato';
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .footer1 {
     display: grid;
-    height: 34vw;
-    margin: 5vw 0;
+    height: 36vw;
+    margin: 6vw 0;
     grid-template-rows: repeat(2, auto);
 }
 .footer1 > div {
@@ -23,9 +23,9 @@ footer .legal {
             align-items: center;
 }
 .footer1 > div > div {
-    width: 25vw;
-    height: 15vw;
-    margin: 1vw 1.5vw;
+    width: 30vw;
+    height: 14vw;
+    margin: 2vw 3.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +41,9 @@ footer .legal {
 
 
 @media (min-width: 678px) {
+    .footer {
+        margin: 4vw 0;
+    }
     .footer1 {
         display: -webkit-box;
         display: flex;
