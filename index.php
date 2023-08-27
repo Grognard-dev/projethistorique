@@ -18,8 +18,6 @@
     <link rel="stylesheet" href="css/caroussel.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/cheat.css">
-
-
 </head>
 
 <body>
